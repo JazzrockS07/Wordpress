@@ -9,5 +9,5 @@ One of my work in wordpress. Woocommerce was finalized here according to the wis
 - in case of cancellation of the order, the meta-data for the product is reset to zero
 - the MPDF library has been added, with the help of which a pdf file with information about the purchased product is generated during the formation of an order, this pdf file is attached to the letter to the buyer
 - the letter to the buyer was changed according to the customer's template
-- Changed the name of the button in the form
+- changed the name of the button in the form
 
