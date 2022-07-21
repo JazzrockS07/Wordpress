@@ -1,13 +1,13 @@
 # Wordpress
-Одна из моих работ в wordpress. Здесь был доработан woocommerce по пожеланиям заказчика:
+One of my work in wordpress. Woocommerce was finalized here according to the wishes of the customer:
 
-- изменено количество товаров, выводимых на странице в магазине
-- в chackout изменено label для поля billing_state
-- в chackout к полям формы billing добавлено event onblur, которое автоматически добавляет данные в форму my_field
-- на странице товара добавлен JS, который автоматически показывает как будут выглядеть заполняемые поля на товаре (товар представляет из себя картину)
-- заполняемые поля на странице товара запоминаются в мета-данных ордера и товара
-- в случае отмены заказа мета-данные обнуляются для товара
-- добавлена библиотека MPDF, с помощью которой в процессе формирования ордера заказа формируется pdf файл с информацией о приобретенном товаре, этот pdf файл файл прикрепляется к письму покупателю
-- изменено письмо покупателю по шаблону заказчика
-- изменено название кнопки в форме
+- the number of products displayed on the page in the store has been changed
+- in chackout changed label for billing_state field
+- in chackout an event onblur was added to the billing form fields, which automatically adds data to the my_field form
+- added JS on the product page, which automatically shows how the filled fields on the product will look like (the product is a picture)
+- filled fields on the product page are stored in the order and product meta-data
+- in case of cancellation of the order, the meta-data for the product is reset to zero
+- the MPDF library has been added, with the help of which a pdf file with information about the purchased product is generated during the formation of an order, this pdf file is attached to the letter to the buyer
+- the letter to the buyer was changed according to the customer's template
+- Changed the name of the button in the form
 
